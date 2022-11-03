@@ -1,0 +1,1 @@
+<div class='w-full bg-stone-300 h-px my-1'></div>

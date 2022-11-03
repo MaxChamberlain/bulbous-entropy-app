@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input{
+    border-radius: 5px !important;
+}
+
+input:focus{
+    border-color: #1976D2 !important;
+    border-width: 2px !important;
+}
+
+input:focus + label{
+    color: #1976D2 !important;
+    top: 50%;
+    transform: translateY(-10px) !important;
+}
+
+label{
+    transform: translateY(12px) scale(0.8) !important;
+    transition-duration: 100ms;
+    border-radius: 0;
+}
+
+button{
+    color: white !important;
+    border-color: #1976D2 !important;
+    background-color: #1976D2 !important;
+    border-radius: 7px !important;
+}
